@@ -1,12 +1,12 @@
 # CSV 데이터를 MySQL 테이블로 옮기는 콘솔 애플리케이션
 
-이 프로젝트는 [디캠프](http://dcamp.kr) 주최로 총 30시간 동안 진행된 ['D.CLASS Be 개발자!'](https://www.facebook.com/groups/dclass1604) 클래스의 미니 해커톤 데이 때, 많은 학생들이 질문했던 내용에 대한 대답이다. 제목 그대로다. 데이터 때문에 고비를 넘지 못하지 않았으면 좋겠다는 생각에 후다닥 만들었다.
+이 프로젝트는 [디캠프](http://dcamp.kr) 주최로 총 30시간 동안 진행된 ['D.CLASS Be 개발자!'](https://www.facebook.com/groups/dclass1604) 클래스의 미니 해커톤 데이 때, 많은 학생들이 질문했던 내용에 대한 대답이다. 제목 그대로다. 데이터 때문에 더 나아가지 못하고 멈추지 말았으면 좋겠다는 생각에 후다닥 만들었다.
 
 ## 1. 설치
 
 ### 1.1. Be 개발자 수업 참여자
 
-[다운로드](https://raw.githubusercontent.com/appkr/c2m/master/releases/c2m_0.0.1.zip) 받고 압축을 푼다(윈도우즈에서는 한글 글꼴 깨짐이 발생할 수 있다).
+[다운로드](https://raw.githubusercontent.com/appkr/c2m/master/releases/c2m_0.0.1.zip) 받고 압축을 푼다(윈도우즈의 콘솔에서는 한글이 깨질 수 있다).
 
 ### 1.2. 컴포저를 아는 사용자
 
@@ -18,7 +18,9 @@ $ composer install
 
 ## 2. 명령어 목록
 
-압축을 푼, 또는 클론한 디렉터리로 이동하고, `php c2m` 명령을 실행한다. 콘솔에서 `php` 명령이 먹지 않는다면, 1) PATH 환경 변수를 설정하거나, 2) 전체 경로(예: `/Application/mamp/php/php c2m`, `C:\Bitnami\wamp\php\php c2m`)로 실행할 수도 있다.
+압축을 푼, 또는 클론한 디렉터리로 이동하고, `php c2m` 명령을 실행한다. 
+
+콘솔에서 `php` 명령이 먹지 않는다면, 1) PATH 환경 변수를 설정하거나, 2) 전체 경로(예: `/Application/mamp/php/php c2m`, `C:\Bitnami\wamp\php\php c2m`)로 실행할 수도 있다.
 
 ![그림 1](images/1.png)
 
@@ -139,5 +141,6 @@ return [
 ## 8. 라이선스
 
 [MIT](https://github.com/appkr/csv2mysql/blob/master/LICENSE)
+MIT는 LICENSE 파일의 저작자 정보를 바꾸지 않는다면, 수정, 재배포, 상업적 이용이 모두 가능한 오픈소스 라이선스다. 
 
-Happy Coding~ \^^/
+Happy Coding~ \\^^/
